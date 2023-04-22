@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(../img/123.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Roboto;
+}
+
+.contenedor-form {
+    background: rgba(0,0,0,.7);
+    width: 100%;
+    max-width: 500px;
+    margin: 48px auto;
+    border-radius: 5px;
+    color: #fff;
+    border-radius:5px;
+    position: relative;
+    /*padding: 40px;*/
+}
+
+.contenedor-form .toggle {
+    position: absolute;
+    top: 7px;
+    right: 7px;
+    width: 100px;
+    height: 30px;
+    font-size: 12px;
+    line-height: 25px;
+    text-align: center;
+    border-top: 2px solid #ff851b;
+    border-bottom: 2px solid #ff851b;    
+    transition: all .5s ease;
+    cursor: pointer;
+}
+
+.contenedor-form .toggle span {
+    letter-spacing: 1px;
+}
+
+.contenedor-form .toggle:hover {
+    border-top: 2px solid #0075d9;
+    border-bottom: 2px solid #0075d9;
+}
+
+.contenedor-form h2 {
+    margin: 0 0 28px 0;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1;
+}
+
+
+.contenedor-form input[type="TipoDeDocumento"],
+.contenedor-form input[type="IdAdministrador"],
+.contenedor-form input[type="PrimerNombre"],
+.contenedor-form input[type="SegundoNombre"],
+.contenedor-form input[type="PrimerApellido"],
+.contenedor-form input[type="SegundoApellido"],
+.contenedor-form input[type="Edad"],
+.contenedor-form input[type="Rh"],
+.contenedor-form input[type="ContactoCelular"],
+.contenedor-form input[type="NombreEPS"],
+.contenedor-form input[type="Usuario"],
+.contenedor-form input[type="Pass"]{
+    outline: none;
+    background: rgba(0,0,0,.5);
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    border-bottom: 4px solid #ff851b;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight:normal;
+    margin: 0 0 20px 0;
+    transition: all .5s ease;
+}
+
+
+.contenedor-form input[type="TipoDeDocumento"]:focus,
+.contenedor-form input[type="IdAdministrador"]:focus,
+.contenedor-form input[type="PrimerNombre"]:focus,
+.contenedor-form input[type="SegundoNombre"]:focus,
+.contenedor-form input[type="PrimerApellido"]:focus,
+.contenedor-form input[type="SegundoApellido"]:focus,
+.contenedor-form input[type="Edad"]:focus,
+.contenedor-form input[type="Rh"]:focus,
+.contenedor-form input[type="ContactoCelular"]:focus,
+.contenedor-form input[type="NombreEPS"]:focus,
+.contenedor-form input[type="Usuario"]:focus,
+.contenedor-form input[type="Pass"]:focus{
+    border-bottom: 4px solid #0075d9;   
+}
+
+.contenedor-form input[type="submit"] {
+    background: #FF851B;
+    color: #fff;
+    border: none;
+    width: 100%;
+    padding: 10px 0;
+    font-weight: normal;
+    font-family: Roboto;
+    letter-spacing: 1px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+
+.contenedor-form input[type="submit"]:hover {
+    background: rgba(0, 117, 217, 0.7);
+}
+
+.contenedor-form .reset-password {
+    background: rgba(0, 117, 217, .7);
+    width: 100%;
+    padding: 15px 0;
+    text-align: center;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.contenedor-form .reset-password a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.contenedor-form .formulario {
+    padding: 40px;
+    display: none;
+}
+
+.contenedor-form .formulario:nth-child(2) {
+    display: block;
+}

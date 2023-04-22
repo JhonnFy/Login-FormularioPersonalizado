@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html  lang = "es">
+<head>
+    <meta  charset = "UTF-8">
+    <link href="festilos.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="/css/estilos.css">
+</head>
+
+<body>
+    <div class = "contenedor-form">
+        <div class = "toggle">
+            <span>CrearCuenta</span>
+        </div>
+        
+        <div class = "formulario">
+            <h2>Administrador</h2>
+            <form action = "#">
+                <input type = "Usuario" placeholder = "Usuario" required>
+                <input type = "Pass" placeholder = "Contraseña" required>
+                <div class = "reset-password">
+                    <A href = "http://127.0.0.1:5500/AdministradorVista/index.html">Iniciar Sesión</a>
+                </div>
+            </form>
+        </div>
+        
+        <div class="formulario">
+            <!-- <h2>Registro/Administrador</h2>
+            <form id="contact_form" action="guardar.php" method="POST" enctype="multipart/form-data" name=formulario>
+			<formulario action="guardar.php" method="POST"> -->
+            <h2>Registro/Administrador</h2>
+            <form action="guardar.php" method="POST" enctype="multipart/form-data" name=formulario>
+                <input id = "TipoDeDocumento" type = "TipoDeDocumento" class="input" name="TipoDeDocumento" placeholder = "Tipo De Documento" required>
+                <input id = "IdAdministrador" type = "IdAdministrador" class="input" name="IdAdministrador" placeholder="Número Identificación" required>
+                <input id = "PrimerNombre" type = "PrimerNombre" class="input" name="PrimerNombre" placeholder = "PrimerNombre" required>
+                <input id = "SegundoNombre" type = "SegundoNombre" class="input" name="SegundoNombre" placeholder = "Segundo Nombre" required>
+                <input id = "PrimerApellido" type = "PrimerApellido" class="input" name="PrimerApellido" placeholder = "Primer Apellido" required>
+                <input id = "SegundoApellido" type = "SegundoApellido" class="input" name="SegundoApellido" placeholder = "Segundo Apellido" required>
+                <input id = "Edad" type = "Edad" class="input" name="Edad" placeholder = "Edad" required>
+                <input id = "Rh" type = "Rh" class="input" name="Rh" placeholder = "Rh" required>
+                <input id = "ContactoCelular" type = "ContactoCelular" class="input" name="ContactoCelular" placeholder = "ContactoCelular" required>
+                <input id = "NombreEPS" type = "NombreEPS" class="input" name="NombreEPS" placeholder = "NombreEPS" required>
+                <input id = "Usuario" type = "Usuario" class="input" name="Usuario" placeholder = "Usuario" required>
+                <input id = "Pass" type = "Pass" class="input" name="Pass" placeholder = "Contraseña" required>
+                <!--<input id = "IdAdmin" class="input" name="IdAdmin" type = "text" value="" required>
+                <input id = "PrimerNombreAdmin" class="input" name="PrimerNombreAdmin" type = "text" value="" required>
+                <input id = "SegundoNombreAdmin" class="input" name="SegundoNombreAdmin" type = "text" value="" required>
+                <input id = "PrimerApellidoAdmin" class="input" name="PrimerApellidoAdmin" type = "text" value="" required>
+                <input id = "SegundoApellidoAdmin" class="input" name="SegundoApellidoAdmin" type = "text" value="" required>
+                <input id = "UsuarioAdmin" class="input" name="UsuarioAdmin" type = "text" value="" required>
+                <input id = "PassAdmin" class="input" name="PassAdmin" type = "text" value="" required> -->
+                <input type = "submit" value = "Register">
+            </form>  
+        </div>
+        <div class = "reset-password">
+            <A href = "http://127.0.0.1:5500/bootstrapTMC/index.html">Regresar Inicio</a>
+        </div>
+    </div>
+    <script type="text/javascript" src="../js/jquery-3.5.0.min.js"></script>
+    <script type="text/javascript" src="../js/ffiltros.js"></script>
+
+</body>
+</html>
