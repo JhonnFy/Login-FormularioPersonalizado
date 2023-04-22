@@ -10,28 +10,9 @@
 	
 	//Verificar la conexion
 	if(!$conectar){
-		die("Hole Giovanny No Topo El  Servidor".mysqli_error());
+		die("Jhon No Encuentro El Servidor".mysqli_error());
 	}
 
-	
-	/*
-	$v1 = ($_POST['IdAdmin']);
-	$v2 = ($_POST['TipoDocumento']);
-	$v3 = ($_POST['PrimerNombreAdmin']);
-	$v4 = ($_POST['SegundoNombreAdmin']);
-	$v5 = ($_POST['PrimerApellidoAdmin']);
-	$v6 = ($_POST['SegundoApellidoAdmin']);
-	$login = ($_POST['UsuarioAdmin']);
-	$pass = ($_POST['PassAdmin']);
-
-	echo $v1;
-	echo $v2;
-	echo $v3;
-	echo $v4;
-	echo $v5;
-	echo $v6;
-	echo $login;
-	echo $pass;*/
 
 
 	
@@ -39,7 +20,7 @@
 	
 
 	if(!$base){
-		die("Hole Giovanny No Topo La DataBase".mysqli_error());
+		die("Jhon No Encuentro El Servidor".mysqli_error());
 		}
 
 
@@ -76,9 +57,9 @@
 	$ejecutar=mysqli_query($conectar,$sql);
 	//Confirmar Ejecición
 	if(!$ejecutar){
-		echo"Hole Giovanny nada de nada";
+		echo"Jhon No Encuentro El Servidor";
 	}else{
-		echo"Datos Guardados Correctamente<br><a href='http://localhost/FormularioAdministrador/html/'>Volver</a>";
+		echo"Datos Guardados Correctamente<br><a href='AquiVaLaRuta'>Volver</a>";
 	}
 ?>
 	
